@@ -1,19 +1,25 @@
 # Centrality-Algorithms
 Public repository for centrality algorithms based on subgraph counting
 
-## Requirements
+## Extended article
+
+We provide a full, extended version of the submitted paper whose appendix contains proofs of the formal statements, as well as the full list of networks considered in the comparison. [Extended Version](https://github.com/Motif-Based-Centralities/Centrality-Algorithms/blob/main/extended_article.pdf)
+
+## Source code and testing
+
+### Requirements
 
 1. Create a python enviroment with Python >= 3.8
 2. Install requirements with `python pip install -r requirements.txt`
 
-## Overview
+### Overview
 
 We provide two implementations of the exact approach to compute ll-Subgraphs and All-Trees centrality measures in a network.
 1. Non parallelized version
 2. Parallelized version
 The latter operates distributing the computation in a multicore machine.
 
-## How to run tests
+### How to run tests
 
 To run any of the implementations of the All-Subgraphs and All-Trees centrality algorithms, you can run the following call with `pwd` in this README directory
 ```

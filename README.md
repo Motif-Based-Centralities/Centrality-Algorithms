@@ -27,3 +27,10 @@ The parameters are detailed as follows
 * `-c` is the number of cores to be used for the parallel algorithm
 * `-p` is a flag that indicates to run the parallel version of the algorithm
 * `-t` is a flag that indicates to compute All-Trees instead of All-Subgraphs centrality.
+
+### Experimental results
+
+We have added the results obtained for a subset of networks collected from [The Network Repository](https://networkrepository.com/). We included
+* Elapsed times for each parallel version of the All-Subgraphs algorithm (following the name `{graph}_c{core number}_opt_times.txt`)
+* Elapsed time for the non parallel version of the All-Subgraphs algorithm (`{graph}_nonparallel_cluster_times.txt`)
+* Subgraph count for All-Subgraphs (`{graph}.txt`) and All-Trees algorithms (`{graph}_trees.txt`)

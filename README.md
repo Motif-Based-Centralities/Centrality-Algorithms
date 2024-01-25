@@ -1,10 +1,6 @@
 # Centrality-Algorithms
 Public repository for centrality algorithms based on subgraph counting
 
-## Extended article
-
-We provide a full, extended version of the submitted paper whose appendix contains proofs of the formal statements, as well as the full list of networks considered in the comparison. [Extended Version](https://github.com/Motif-Based-Centralities/Centrality-Algorithms/blob/main/extended_article.pdf)
-
 ## Source code and testing
 
 ### Requirements

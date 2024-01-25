@@ -1,0 +1,4 @@
+TreeDecomp: 8.464038372039795
+Base values: 0.5237956047058105
+First traversal: 39.89128065109253
+Second traversal: 89.14947056770325
